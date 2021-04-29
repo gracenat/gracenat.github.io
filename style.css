@@ -50,6 +50,20 @@ body {
     cursor: pointer;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+.features:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f0f0f0;
+    width: 10%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
 .feature-1 {
     grid-area: feature-1;
     background-image: url(img/feature-1.jpg);
@@ -62,9 +76,14 @@ body {
     background-size: cover;
 }
 
-.features .price {
+.features .port-title {
     font-size: 3em;
     font-weight: 200;
+    color: white;
+}
+
+.features .item {
+    color: white;
 }
 
 
