@@ -28,7 +28,7 @@ body {
         'hero hero feature-2';
 }
 
-.main-feature {
+.hero {
     grid-area: hero;
     min-height: 300px;
     background-image: url(img/hero.jpg);
@@ -191,12 +191,14 @@ a:link {
 
 .service h3 {
     font-size: 1.5em;
+    color: black;
 }
 
 .service p {
     font-weight: 200;
     letter-spacing: 1px;
     font-size: 0.8em;
+    color: black;
 }
 
 /* Gallery */
